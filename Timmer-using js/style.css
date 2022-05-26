@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(16, 16, 35);
+   
+}
+#time{
+    color: aliceblue;
+    position: absolute;
+    left: 37%;
+    top: 45%;
+    display: block;
+    width: auto;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid white;
+    padding: 14px;
+    padding: 5px 75px 5px 75px;
+}
+@media screen and (max-width: 500px) {
+    #time{
+    position: relative;
+    font-size: 50px;
+    padding: 0px;
+    left: 0px;
+    text-align: center;
+    top: 40vh;
+    }
+  }
